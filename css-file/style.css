@@ -51,7 +51,7 @@ header {
   color: #fff;
 }
 
-/* ============ Failures section start ============= */
+/* ============ Failures section design start ============= */
 .failures-container {
   display: flex;
   gap: 100px;
@@ -99,7 +99,7 @@ header {
   margin-right: 8px;
 }
 
-/* -===================== */
+/* =========== Plans section design start ============ */
 
 .my-plans-section {
   margin: 120px 200px;
@@ -152,4 +152,62 @@ header {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 24px;
+}
+
+/* ============ Footer section design start ============ */
+footer {
+  background: #151414;
+  padding: 100px 200px;
+}
+
+.fot-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fot-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.fot-description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  margin: 18px 372px 25px 0px;
+}
+
+.info-2 p {
+  color: #fff;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.social-links a {
+  width: 175px;
+  height: 46px;
+  margin-right: 20px;
+}
+
+.fot-column h3 {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.fot-column form input {
+  padding: 21px 100px 21px 18px;
+  color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 400;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background: none;
+  margin-bottom: 25px;
 }
