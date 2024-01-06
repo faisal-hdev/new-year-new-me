@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-image: url(../assets/images/banner/banner3.png);
+}
+
+.header-container {
+  max-width: 70%;
+  text-align: right;
+  padding: 200px 220px;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.header-description {
+  margin: 30px 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 26px;
+}
+
+.primary-btn {
+  cursor: pointer;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  padding: 18px 26px;
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.primary-btn:hover {
+  background: #54b1fd;
+  color: #fff;
+}
+
+/* ============ Failures section start ============= */
+.failures-container {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  margin: 100px 220px;
+}
+
+.failures-column {
+  max-width: 50%;
+}
+
+.failures-column img {
+  width: 451px;
+}
+
+.title {
+  margin-top: 150px;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.description {
+  color: #444343;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  margin: 20px 0;
+}
+
+.fivth-point p {
+  color: #444343;
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-weight: 200;
+  line-height: 26px;
+}
+
+.blue-c {
+  width: 24px;
+  height: 24px;
+  font-size: 20px;
+  text-align: center;
+  color: #16d887;
+  margin-right: 8px;
+}
+
+/* -===================== */
+
+.my-plans-section {
+  margin: 120px 200px;
+}
+
+.plans-title {
+  color: #151414;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.plans-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.plans-category h3 {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.plans-category p {
+  color: #737272;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* ============ Call section design start ============ */
+.call-section {
+  margin: 110px 200px;
+}
+
+.call-container {
+  max-width: 285%;
+  padding: 60px 65px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url("../assets/images/watch.png");
+}
+
+.call-container h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
